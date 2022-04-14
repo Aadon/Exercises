@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .pagination {
+      /* margin-left: 8px;
+      margin-right: 10px; */
+    }
+    a {
+      padding-left: 6px;
+      padding-right: 4px;
+    }
+    .stretch {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
+      background-color: rgb(2, 141, 2);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 2px;
+     transition: padding 0.15s;
+    }
+    .stretch:hover {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    }
+    .shadow-btn {
+      background-color: rgb(2, 141, 2);
+      border: none;
+      color: white;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      transition: transform;
+    }
+    .shadow-btn:hover {
+      transform: translateY(-4px);
+    }
+    .one-btn, .two-btn, .three-btn {
+      background-color: rgb(2, 141, 2);
+      border: none;
+      margin: 8px;
+      transition: padding 0.15s;
+    }
+    .one-btn.two-btn.three-btn:hover {
+      padding: 10px 10px 8px 8px;
+    }
+  </style>
+</head>
+<body>
+  <p>Pagination</p>
+  <button class="pagination">Back</button>
+  <a href="">1</a>
+  <a href="">2</a>
+  <a href="">3</a>
+  <a href="">4</a>
+  <a href="">5</a>
+  <button class="pagination">Next</button>
+  <p>stretch</p>
+  <button class="stretch">Stretch</button>
+  <p>3D click</p>
+  <button class="shadow-btn">Shadow</button>
+  <p>margin and paging together</p>
+  <button class="one-btn">One</button><button class="two-btn">Two</button><button class="three-btn">Three</button>
+</body>
+</html>
